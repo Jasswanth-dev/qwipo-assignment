@@ -1,0 +1,50 @@
+.create-form{
+    padding: 10px;
+    
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.btn.save {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn.cancel {
+    background-color: #dc3545;
+    color: white;
+}
