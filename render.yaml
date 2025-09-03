@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: qwipo-assignment
+    env: node
+    rootDir: server
+    buildCommand: |
+      npm install
+      npm run build --prefix ../client
+    startCommand: npm start
+    plan: free
